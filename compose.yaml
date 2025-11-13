@@ -3,7 +3,7 @@ services:
     build:
       context: .
     ports:
-      - "5000":"8000"
+      - "5000:8000"
     restart: always
     expose:
       - 8000
